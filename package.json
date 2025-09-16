@@ -1,5 +1,5 @@
 {
-  "name": "pipeline1",
+  "name": "devops-pipelines",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,16 @@
     "run": "node index.js",
     "test": "node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/devops-pipelines.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yourusername/devops-pipelines/issues"
+},
+  "homepage": "https://github.com/yourusername/devops-pipelines#readme"
 }
